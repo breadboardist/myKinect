@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="myKinect.Pages.initialPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2013"
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1024">
+    <Grid>
+
+        <Grid x:Name="initialGrid" Height="768" Width="1024">
+            <k:KinectTileButton x:Name="webBrowserButton" Label="Web Browser" Click="webBrowserButton_Click" Margin="151,150,653,398">
+            	<k:KinectTileButton.Background>
+            		<ImageBrush ImageSource="pack://siteoforigin:,,,/Pages/web.jpg"/>
+            	</k:KinectTileButton.Background>
+            </k:KinectTileButton>
+            <k:KinectTileButton x:Name="musicPlayerButton" Label="Music Player" Margin="151,392,653,156" Click="musicPlayerButton_Click">
+            	<k:KinectTileButton.Background>
+            		<ImageBrush ImageSource="headphones123.png"/>
+            	</k:KinectTileButton.Background>
+            </k:KinectTileButton>
+            <k:KinectTileButton x:Name="videoPlayerButton" Label="Video Player" Margin="405,150,399,398" Click="KinectTileButton_Click">
+            	<k:KinectTileButton.Background>
+            		<ImageBrush ImageSource="pack://siteoforigin:,,,/Pages/video.jpg"/>
+            	</k:KinectTileButton.Background>
+            </k:KinectTileButton>
+            <k:KinectTileButton x:Name="picturePage" Label="Pictures" Margin="405,392,399,156" Click="picturePage_Click">
+            	<k:KinectTileButton.Background>
+            		<ImageBrush ImageSource="pack://siteoforigin:,,,/Pages/759800739.png"/>
+            	</k:KinectTileButton.Background>
+            </k:KinectTileButton>
+            <k:KinectTileButton x:Name="textEditorButton" Label="Notepad" Margin="663,150,141,398" Click="textEditorButton_Click">
+            	<k:KinectTileButton.Background>
+            		<ImageBrush ImageSource="500px-Notepad_icon.svg_.png"/>
+            	</k:KinectTileButton.Background>
+            </k:KinectTileButton>
+            <k:KinectTileButton Label="Exit" Margin="663,392,141,156" Click="KinectTileButton_Click_1" Content="">
+            	<k:KinectTileButton.Background>
+            		<ImageBrush ImageSource="exit.png"/>
+            	</k:KinectTileButton.Background>
+            </k:KinectTileButton>
+        </Grid>
+
+
+
+
+
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2013" x:Class="myKinect.Pages.picturePage" 
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1024">
+    <Grid x:Name="pictureGrid">
+        <Image x:Name="picFrame" Stretch="Uniform" Source="C:\Users\Prem\Pictures\Wallpapers\Batman.jpg" Margin="10,10,10,182"/>
+
+        <k:KinectCircleButton x:Name="previous" Label="Prev" Content="&lt;&lt;" HorizontalAlignment="Left" Margin="54,617,0,10" Width="171" Click="previous_Click"/>
+        <k:KinectCircleButton x:Name="next" Label="Next" Content="&gt;&gt;" HorizontalAlignment="Right" Margin="0,617,54,10" Width="171" Click="next_Click"/>
+        <k:KinectCircleButton x:Name="home" Label="Home" Content="" HorizontalAlignment="Stretch" Margin="427,617,426,10" Width="Auto" Click="home_Click"/>
+
+    </Grid>
+</UserControl>

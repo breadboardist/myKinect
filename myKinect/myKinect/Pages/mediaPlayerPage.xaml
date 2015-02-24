@@ -1,0 +1,19 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2013" x:Class="myKinect.Pages.mediaPlayerPage" 
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1024">
+    <Grid x:Name="mediaGrid">
+        <MediaElement x:Name="media" Margin="10" Source="C:\Users\Prem\Videos\Movies\Walt Disney's Paperman (2012).mp4" LoadedBehavior="Manual" UnloadedBehavior="Stop"/>
+
+        <k:KinectCircleButton x:Name="play" Label="Play" Content=">" HorizontalAlignment="Left" Margin="10,593,0,0" Click="play_Click"/>
+        <k:KinectCircleButton x:Name="pause" Label="Pause" Content="||" HorizontalAlignment="Left" Margin="505,593,0,0" Click="pause_Click"/>
+        <k:KinectCircleButton x:Name="home" Label="Home" Content="" HorizontalAlignment="Right" Click="home_Click" Width="165" Height="175" VerticalAlignment="Bottom"/>
+        <k:KinectCircleButton x:Name="fastforward" Label="FF" Content=">>" HorizontalAlignment="Left" Margin="175,593,0,0" Click="fastforward_Click"/>
+        <k:KinectCircleButton x:Name="rewind" Label="Rew" Content="&lt;&lt;" HorizontalAlignment="Left" Margin="340,593,0,0" Click="rewind_Click"/>
+
+    </Grid>
+</UserControl>

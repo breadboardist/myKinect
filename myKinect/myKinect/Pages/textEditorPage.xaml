@@ -1,0 +1,42 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:k="http://schemas.microsoft.com/kinect/2013" x:Class="myKinect.Pages.textEditorPage" 
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1024">
+    <Grid x:Name="textGrid">
+        <TextBox x:Name="text" Height="131" Margin="57,62,57,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+
+        <k:KinectCircleButton x:Name="q" Content="Q" HorizontalAlignment="Stretch" Margin="33,220,856,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="q_Click"/>
+        <k:KinectCircleButton x:Name="w" Content="W" HorizontalAlignment="Stretch" Margin="168,220,721,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="w_Click"/>
+        <k:KinectCircleButton x:Name="e" Content="E" HorizontalAlignment="Stretch" Margin="303,220,586,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="e_Click"/>
+        <k:KinectCircleButton x:Name="r" Content="R" HorizontalAlignment="Stretch" Margin="438,220,451,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="r_Click"/>
+        <k:KinectCircleButton x:Name="t" Content="T" HorizontalAlignment="Stretch" Margin="573,220,316,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="t_Click"/>
+        <k:KinectCircleButton x:Name="y" Content="Y" HorizontalAlignment="Stretch" Margin="708,220,181,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="y_Click"/>
+        <k:KinectCircleButton x:Name="u" Content="U" HorizontalAlignment="Stretch" Margin="843,220,46,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="u_Click"/>
+        <k:KinectCircleButton x:Name="i" Content="I" HorizontalAlignment="Stretch" Margin="33,345,856,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="i_Click"/>
+        <k:KinectCircleButton x:Name="o" Content="O" HorizontalAlignment="Stretch" Margin="168,345,721,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="o_Click"/>
+        <k:KinectCircleButton x:Name="p" Content="P" HorizontalAlignment="Stretch" Margin="303,345,586,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="p_Click"/>
+        <k:KinectCircleButton x:Name="a" Content="A" HorizontalAlignment="Stretch" Margin="438,345,451,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="a_Click"/>
+        <k:KinectCircleButton x:Name="s" Content="S" HorizontalAlignment="Stretch" Margin="573,345,316,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="s_Click"/>
+        <k:KinectCircleButton x:Name="d" Content="D" HorizontalAlignment="Stretch" Margin="708,345,181,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="d_Click"/>
+        <k:KinectCircleButton x:Name="f" Content="F" HorizontalAlignment="Stretch" Margin="843,345,46,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="f_Click"/>
+        <k:KinectCircleButton x:Name="g" Content="G" HorizontalAlignment="Stretch" Margin="33,475,856,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="g_Click"/>
+        <k:KinectCircleButton x:Name="h" Content="H" HorizontalAlignment="Stretch" Margin="168,475,721,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="h_Click"/>
+        <k:KinectCircleButton x:Name="j" Content="J" HorizontalAlignment="Stretch" Margin="303,475,586,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="j_Click"/>
+        <k:KinectCircleButton x:Name="k" Content="K" HorizontalAlignment="Stretch" Margin="438,475,451,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="k_Click"/>
+        <k:KinectCircleButton x:Name="l" Content="L" HorizontalAlignment="Stretch" Margin="573,475,316,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="l_Click"/>
+        <k:KinectCircleButton x:Name="z" Content="Z" HorizontalAlignment="Stretch" Margin="708,475,181,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="z_Click"/>
+        <k:KinectCircleButton x:Name="x" Content="X" HorizontalAlignment="Stretch" Margin="843,475,46,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="x_Click"/>
+        <k:KinectCircleButton x:Name="c" Content="C" HorizontalAlignment="Stretch" Margin="33,600,856,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="c_Click"/>
+        <k:KinectCircleButton x:Name="v" Content="V" HorizontalAlignment="Stretch" Margin="168,600,721,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="v_Click"/>
+        <k:KinectCircleButton x:Name="b" Content="B" HorizontalAlignment="Stretch" Margin="303,600,586,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="b_Click"/>
+        <k:KinectCircleButton x:Name="n" Content="N" HorizontalAlignment="Stretch" Margin="438,600,451,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="n_Click"/>
+        <k:KinectCircleButton x:Name="m" Content="M" HorizontalAlignment="Stretch" Margin="573,600,316,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="m_Click"/>
+        <k:KinectCircleButton x:Name="home" Label="Home" Content="" HorizontalAlignment="Stretch" Margin="708,619,181,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="backspace_Click"/>
+        <k:KinectCircleButton x:Name="save" Label="Save" Content="" HorizontalAlignment="Stretch" Margin="843,619,46,0" VerticalAlignment="Top" Height="125" Width="Auto" Click="save_Click"/>
+
+    </Grid>
+</UserControl>
