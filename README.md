@@ -1,4 +1,4 @@
-# myKinect
+# myKinect [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 Mouseless/Keyboardless operation of a computer. Basic functionality for use by kids or elderly.
 License 
 ========
